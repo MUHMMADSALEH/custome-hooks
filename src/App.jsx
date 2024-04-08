@@ -1,7 +1,8 @@
 
 
 import './App.css'
-import UseIntervalApp from './components/useInterval/useInterval'
+import UseDebounceApp from './components/useDebounce/useDebounce'
+// import UseIntervalApp from './components/useInterval/useInterval'
 // import UseMousePointerApp from './components/mouseMove/useMousePointer'
 // import { Profile } from './components/SwrLibrary/Fetch'
 // import { UseIsOnlineApp } from './components/isOnline/UseIsOnlineApp'
@@ -16,7 +17,8 @@ function App() {
 {/* <Profile/> */}
 {/* <UseIsOnlineApp/> */}
 {/* <UseMousePointerApp/> */}
-<UseIntervalApp/>
+{/* <UseIntervalApp/> */}
+<UseDebounceApp/>
     </>
   )
 }
